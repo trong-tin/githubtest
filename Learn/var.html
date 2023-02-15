@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>I love you</h1>
+        <div class="box"></div>
+    </body>
+    <style>
+        .box{
+            width:50%;
+            height:100px;
+            background-color:violet;
+        }
+        h1{
+            font-size:30px;
+        }
+        h1:hover{
+            color:red;
+        }
+        h1:active{
+            color:black;
+        }
+        .box:hover{
+            background-color: blue;
+        }
+        li:first-child{
+            color:violet;
+            font-size:30px;
+
+        }
+        .box::before{
+            content:"";
+            display:block;
+            width:50px;
+            height:50px;
+            background-color: aqua;
+        }
+        .box::after{
+            content:"";
+            display:block;
+            width:50px;
+            height:50px;
+            background-color: blue;
+        }
+        h1::first-line{
+            font-size: 100px;
+        }
+        h1::selection{
+            background-color: red;
+        }
+    </style>
+    <ul>
+ <li>:ROOT</li>
+ <li>:ROOT</li>
+ <li>:ROOT</li>
+    </ul>
+</html>
